@@ -16,10 +16,10 @@ const Header = ({ children, className }: HeaderProps) => {
             />
             <Image
                 src="/assets/icons/logo-icon.svg"
-                alt="logo"
+                alt="logo with name"
                 width={32}
                 height={32}
-                className='mr-2 md:block'
+                className='mr-2 md:hidden'
             />
         </Link>
         {children}
